@@ -1,0 +1,285 @@
+
+$background: linear-gradient(
+    90deg,
+    rgb(118, 167, 63) 0%,
+    rgb(51, 143, 118) 40%,
+   );
+    
+body {
+      font-family: Open Sans, sans-serif;
+      background: #FFF linear-gradient(to bottom, #3F567C, #B5CCC6) no-repeat;
+
+  .windows-margin {
+      width: 1200px;
+      padding:50px;
+      background: #FFF linear-gradient(to bottom, #3F567C, #B5CCC6) no-repeat;
+  
+.PlantasEcuador1{
+  width: 1300px;
+	background: $background;
+  letter-spacing: 2px; 
+    font-size: 20px;       
+    font-weight: bold;   
+    text-align: center;
+
+
+.titulo1{color:white;
+  background: $background;
+   text-align: center;
+   display: inline-block;
+   text-transform: uppercase;
+   color: #D3D3D3
+  }
+
+    .titulo2{
+    color:#D3D3D3;
+    background:$background;
+    margin-top:-20px;
+    display: inline-block;
+    width: 600px;}
+    
+
+.imagenes{
+  margin-top:-20px;
+  display: flex;
+flex-wrap: nowrap; 
+gap: 20px;
+justify-content: flex-start;
+		position: relative;
+		background: $background;
+		padding-left: 100px;
+		padding-top: 50px;
+		padding-bottom: 50px;
+    
+
+    .planta-1, .planta-2, .planta-3, .planta-4, .planta-5  {
+      width:250px;  
+      height: 250px; 
+      object-fit: cover;     
+    border-radius: 20px
+  }
+    
+    .planta-1 {
+			z-index: 100;
+        animation: scale1  10s linear infinite;
+        margin-left: 140px;
+}
+    .planta-2 {
+			z-index: 90;
+        animation: scale2 10s linear infinite; 
+        margin-left: -100px;
+              
+}
+    .planta-3 {
+			z-index: 80;
+        animation: scale3 10s linear infinite;
+        margin-left: -120px;
+    }
+    .planta-4 {
+				z-index: 70;
+        animation: scale4 10s linear infinite;  
+        margin-left: -130px; 
+}
+.planta-5 {
+  z-index: 60;
+  animation: scale5 10s linear infinite; 
+  margin-left: -140px; 
+}
+
+        
+    @keyframes scale1 {
+        40% {
+          transform:scale(1.3);
+}
+    }
+    @keyframes scale2 {
+        40% {
+          transform:scale(1.1);
+        }
+    }
+    @keyframes scale3 {
+        40% {
+          transform:scale(0.9);
+}
+    }
+    @keyframes scale4 {
+        40% {
+          transform:scale(0.7);
+}
+    }
+    @keyframes scale5 {
+      40% {
+        transform:scale(0.5);
+}
+    }
+  }
+
+  .titulo3{
+    color:#D3D3D3;
+    background:$background;
+    display: inline-block;
+    width: 600px;
+    margin-top: -5px}
+    
+
+.imagenes2{
+  display: flex;
+  flex-wrap: nowrap; 
+  gap: 20px;
+  justify-content: flex-start;
+  position: relative;
+  background: $background;
+  align-items: center;
+  justify-content: center;
+  padding-left: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+ 
+
+  .planta-6, .planta-7, .planta-8, .planta-9, .planta-10 {
+    width:250px;  
+    height: 250px; 
+    margin-top: -20px;
+    object-fit: cover;     
+  border-radius: 20px}
+
+  .planta-6 {
+    z-index: 50;
+    animation: scale6 10s linear infinite;   
+     margin-left: -100px;
+  }
+  .planta-7 {
+    z-index: 40;
+    animation: scale7 10s linear infinite;
+     margin-left: -110px;
+  }
+  .planta-8 {
+    z-index: 30;
+    animation: scale8 10s linear infinite;  
+     margin-left: -120px;
+  }
+  .planta-9 {
+    z-index: 20;
+    animation: scale9 10s linear infinite;
+     margin-left: -130px;
+  }
+  .planta-10 {
+    z-index: 10;
+    animation: scale10 10s linear infinite;
+     margin-left: -140px;
+  }
+        
+  @keyframes scale6 {
+    40% {
+      transform:scale(1.3);
+}
+}
+@keyframes scale7 {
+    40% {
+      transform:scale(1.1);
+    }
+}
+@keyframes scale8 {
+    40% {
+      transform:scale(0.9);
+}
+}
+@keyframes scale9 {
+    40% {
+      transform:scale(0.7);
+}
+}
+@keyframes scale10 {
+  40% {
+    transform:scale(0.5);
+}
+}
+}
+
+.titulo4{
+  color:#D3D3D3;
+  background:$background;
+  display: inline-block;
+  width: 600px;
+  margin-top: -5px}
+ 
+.imagenes3{
+  display: flex;
+  flex-wrap: nowrap; 
+  gap: 20px;
+  justify-content: flex-start;
+  position: relative;
+  background: $background;
+  align-items: center;
+  justify-content: center;
+  padding-left: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+ 
+
+  .planta-11, .planta-12, .planta-13, .planta-14, .planta-15 {
+    width:250px;  
+    height: 250px; 
+    object-fit: cover;     
+  border-radius: 20px}
+
+  .planta-11 {
+    z-index: 50;
+    animation: scale11 10s linear infinite;  
+     margin-left: -100px;
+  }
+  .planta-12{
+    z-index: 40;
+    animation: scale12 10s linear infinite; 
+     margin-left: -110px;
+  }
+  .planta-13 {
+    z-index: 30;
+    animation: scale13 10s linear infinite; 
+     margin-left: -120px;
+  }
+  .planta-14 {
+    z-index: 20;
+    animation: scale14 10s linear infinite;
+     margin-left: -130px;
+  }
+  .planta-15 {
+    z-index: 10;
+    animation: scale15 10s linear infinite;
+     margin-left: -140px;
+  }
+        
+  @keyframes scale11 {
+    40% {
+      transform:scale(1.3);
+}
+}
+@keyframes scale12 {
+    40% {
+      transform:scale(1.1);
+    }
+}
+@keyframes scale13 {
+    40% {
+      transform:scale(0.9);
+}
+}
+@keyframes scale14 {
+    40% {
+      transform:scale(0.7);
+}
+}
+@keyframes scale15 {
+  40% {
+    transform:scale(0.5);
+}
+}
+}
+ }
+  }}
+
+
+
+
+
+
